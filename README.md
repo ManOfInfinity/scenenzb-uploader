@@ -1,8 +1,21 @@
+```
+  ____                      _   _ ________          
+ / ___|  ___ ___ _ __   ___| \ | |__  / __ )___     
+ \___ \ / __/ _ \ '_ \ / _ \  \| | / /|  _ / __|    
+  ___) | (_|  __/ | | |  __/ |\  |/ /_| |_) \__ \   
+ |____/ \___\___|_| |_|\___|_| \_/____|____/|___/   
+          _   _ ____  _     ___    _    ____  _____ ____  
+         | | | |  _ \| |   / _ \  / \  |  _ \| ____|  _ \ 
+         | | | | |_) | |  | | | |/ _ \ | | | |  _| | |_) |
+         | |_| |  __/| |__| |_| / ___ \| |_| | |___|  _ < 
+          \___/|_|   |_____\___/_/   \_\____/|_____|_| \_\
+```
+
 # SceneNZBs Uploader
 
 A fast Python CLI to upload NZBs to [SceneNZBs](https://scenenzbs.com).
 
-Supports single files, batch folder uploads, and auto-detection of MediaInfo/NFO companions.
+[SceneNZBs](https://scenenzbs.com/) is a private Usenet indexer focused on scene releases. This script automates uploading `.nzb` files to the site via its API, so you don't have to do it manually through the web interface. It handles single files, batch folder uploads, companion file detection (MediaInfo XML and NFO), duplicate skipping, and logs every upload result.
 
 ---
 
