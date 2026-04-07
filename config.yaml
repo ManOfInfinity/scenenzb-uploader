@@ -1,0 +1,4 @@
+api_key: "YOUR_API_KEY_HERE"
+category: -1  # -1 for auto-detect, or set a specific category ID
+base_url: "https://scenenzbs.com"
+api_path: "/api/v1"
