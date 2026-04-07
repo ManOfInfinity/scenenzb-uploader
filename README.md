@@ -15,7 +15,9 @@
 
 A fast Python CLI to upload NZBs to [SceneNZBs](https://scenenzbs.com).
 
-[SceneNZBs](https://scenenzbs.com/) is a private Usenet indexer focused on scene releases. This script automates uploading `.nzb` files to the site via its API, so you don't have to do it manually through the web interface. It handles single files, batch folder uploads, companion file detection (MediaInfo XML and NFO), duplicate skipping, and logs every upload result.
+[SceneNZBs](https://scenenzbs.com/) is a private Usenet indexer covering all types of releases — not just scene, despite the name. This tool automates `.nzb` uploads to SceneNZBs via its API. It supports single-file and batch folder uploads, automatically detects companion files (MediaInfo XML and NFO), skips duplicates, and logs every result.
+
+> **Note:** Uploading to SceneNZBs requires a special role that must be requested from site staff before you can use this tool.
 
 ---
 
