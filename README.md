@@ -1,6 +1,6 @@
 # SceneNZBs Uploader
 
-A fast, no-nonsense Python CLI to upload NZBs to [SceneNZBs](https://scenenzbs.com).
+A fast Python CLI to upload NZBs to [SceneNZBs](https://scenenzbs.com).
 
 Supports single files, batch folder uploads, and auto-detection of MediaInfo/NFO companions.
 
